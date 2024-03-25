@@ -2,6 +2,7 @@
   <CategoryCard category-name="Featured" />
   <CategoryCard category-name="Recent" />
   <CategoryCard category-name="Regular" />
+  <SeriesItems />
   <BestAuthor />
 </template>
 
