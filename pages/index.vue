@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- Recent Items -->
-    <h4 class="mt-3"><i class="ri-history-line me-1"></i>সাম্প্রতিক</h4>
+    <h4 class="mt-3"><i class="ri-history-line me-1"></i>Recent</h4>
     <section class="grid template250">
       <ProductCard />
 
