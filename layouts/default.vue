@@ -12,6 +12,7 @@
           <div class="content-area pe-lg-5 me-lg-5 mt-3">
             <slot />
           </div>
+          <AppFooter />
         </section>
       </div>
     </section>
