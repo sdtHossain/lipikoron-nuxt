@@ -28,7 +28,7 @@
             <input
               type="search"
               class="form-control border-2 border-primary ps-3"
-              placeholder="সার্চ করুন যেকোনো কিছু..."
+              placeholder="search..."
               style="
                 border-top-left-radius: 25px;
                 border-bottom-left-radius: 25px;
@@ -78,7 +78,7 @@
                     />
                   </div>
                   <div>
-                    <b class="d-block">লিপিকরণ টি-শার্ট</b>
+                    <b class="d-block">Lipikoron T-Shirt</b>
                     <span class="me-1">৳ 250</span
                     ><small class="fs-7 text-muted">(x4)</small>
                   </div>
@@ -96,7 +96,7 @@
                     />
                   </div>
                   <div>
-                    <b class="d-block">লিপিকরণ কাপ</b>
+                    <b class="d-block">Lipikoron Cup</b>
                     <span class="me-1">৳ 250</span
                     ><small class="fs-7 text-muted">(x4)</small>
                   </div>
@@ -114,7 +114,7 @@
                     />
                   </div>
                   <div>
-                    <b class="d-block">লিপিকরণ হুডি</b>
+                    <b class="d-block">Lipikoron Hoody</b>
                     <span class="me-1">৳ 250</span
                     ><small class="fs-7 text-muted">(x4)</small>
                   </div>
@@ -150,13 +150,13 @@
                   </div>
                   <div>
                     <b class="d-block"
-                      >জোসে জুনিগা<i
+                      >Jose Zuniga<i
                         class="ri-signal-tower-line fw-normal text-primary ms-2"
                       ></i
                     ></b>
                     <span class="me-2">Hi!</span>•<small
                       class="fs-7 text-muted ms-2"
-                      >১ মিনিট আগে</small
+                      >1 miniute ago</small
                     >
                   </div>
                 </a>
@@ -174,13 +174,13 @@
                   </div>
                   <div>
                     <b class="d-block"
-                      >ক্যান্ডেল মরগ্যান<i
+                      >Kendall Morgan<i
                         class="ri-signal-tower-line fw-normal text-primary ms-2"
                       ></i
                     ></b>
-                    <span class="me-2">আপনার লিপিতে...</span>•<small
+                    <span class="me-2">Your Lipi...</span>•<small
                       class="fs-7 text-muted ms-2"
-                      >১ মিনিট আগে</small
+                      >1 miniute ago</small
                     >
                   </div>
                 </a>
@@ -197,10 +197,10 @@
                     />
                   </div>
                   <div>
-                    <b class="d-block">রাফেহ কাজি</b>
+                    <b class="d-block">Rafeh Qazi</b>
                     <span class="me-2">Hello!</span>•<small
                       class="fs-7 text-muted ms-2"
-                      >১ মিনিট আগে</small
+                      >1 miniute ago</small
                     >
                   </div>
                 </a>
@@ -218,13 +218,13 @@
                   </div>
                   <div>
                     <b class="d-block"
-                      >রাইলি গ্রিফিন<i
+                      >Riley Griffin<i
                         class="ri-signal-tower-line fw-normal text-primary ms-2"
                       ></i
                     ></b>
-                    <span class="me-2">আপনাকে মেসেজ পাছিয়ে...</span>•<small
+                    <span class="me-2">send message to you...</span>•<small
                       class="fs-7 text-muted ms-2"
-                      >১ মিনিট আগে</small
+                      >1 miniute ago</small
                     >
                   </div>
                 </a>
@@ -241,10 +241,10 @@
                     />
                   </div>
                   <div>
-                    <b class="d-block">রাফেহ কাজি</b>
-                    <span class="me-2">কেমন আছেন?</span>•<small
+                    <b class="d-block">Rafeh Qazi</b>
+                    <span class="me-2">How are you?</span>•<small
                       class="fs-7 text-muted ms-2"
-                      >১ মিনিট আগে</small
+                      >1 miniute ago</small
                     >
                   </div>
                 </a>
@@ -269,41 +269,25 @@
             >
               <li>
                 <a href="" class="dropdown-item"
-                  ><i class="ri-chat-1-line me-1"></i><b>সোহানুর রহমান</b>,
-                  আপনার লিপিতে কমেন্ট করেছেন।<br /><small class="ps-3"
-                    >১ মিনিট আগে</small
+                  ><i class="ri-chat-1-line me-1"></i><b>Sohanur Rahman</b>,
+                  Commented you<br /><small class="ps-3"
+                    >1 miniute ago</small
                   ></a
                 >
               </li>
               <li>
                 <a href="" class="dropdown-item"
-                  ><i class="ri-thumb-up-line me-1"></i><b>সোহানুর রহমান</b>,
-                  আপনার লিপিতে লাইক করেছেন।<br /><small class="ps-3"
-                    >৩০ মিনিট আগে</small
+                  ><i class="ri-thumb-up-line me-1"></i><b>Sohanur Rahman</b>,
+                  Liked your post<br /><small class="ps-3"
+                    >30 miniutes ago</small
                   ></a
                 >
               </li>
               <li>
                 <a href="" class="dropdown-item"
-                  ><i class="ri-error-warning-line me-1"></i><b>দুঃখিত</b>,
-                  আপনার লিপিটি অপসারণ করা হয়েছে।<br /><small class="ps-3"
-                    >২ ঘন্টা আগে</small
-                  ></a
-                >
-              </li>
-              <li>
-                <a href="" class="dropdown-item"
-                  ><i class="ri-chat-1-line me-1"></i><b>আনিকা তাহাসীন</b>,
-                  আপনার লিপিতে কমেন্ট করেছেন।<br /><small class="ps-3"
-                    >৩ দিন আগে</small
-                  ></a
-                >
-              </li>
-              <li>
-                <a href="" class="dropdown-item"
-                  ><i class="ri-information-line me-1"></i><b>অভিনন্দন</b>,
-                  আপনাকে লিপিকার করা হয়েছে।<br /><small class="ps-3"
-                    >১ সপ্তাহ আগে</small
+                  ><i class="ri-error-warning-line me-1"></i><b>Sorry</b>, your
+                  post has been deleted<br /><small class="ps-3"
+                    >2 hours ago</small
                   ></a
                 >
               </li>
@@ -330,22 +314,22 @@
             >
               <li>
                 <a class="dropdown-item" href="#"
-                  ><i class="ri-file-user-line me-1"></i>প্রোফাইল</a
+                  ><i class="ri-file-user-line me-1"></i>Profile</a
                 >
               </li>
               <li>
                 <a class="dropdown-item" href="#"
-                  ><i class="ri-settings-line me-1"></i>সেটিংস</a
+                  ><i class="ri-settings-line me-1"></i>Settings</a
                 >
               </li>
               <li>
                 <a class="dropdown-item" href="#"
-                  ><i class="ri-user-2-line me-1"></i>সাইট অ্যাডমিন</a
+                  ><i class="ri-user-2-line me-1"></i>Site Admin</a
                 >
               </li>
               <li>
                 <a class="dropdown-item" href="#"
-                  ><i class="ri-shut-down-line me-1"></i>সাইন অফ</a
+                  ><i class="ri-shut-down-line me-1"></i>Sign Up</a
                 >
               </li>
             </ul>
