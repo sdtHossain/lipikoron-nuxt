@@ -1,0 +1,146 @@
+/* Fonts */
+@font-face{
+	src:url(../fonts/HindSiliguri.ttf);
+	font-family:HindSiliguri;
+}
+@font-face{
+	src:url(../fonts/BalooDa.ttf);
+	font-family:BalooDa;
+}
+@font-face{
+	src:url(../fonts/SolaimanLipi.ttf);
+	font-family:SolaimanLipi;
+}
+
+/* Defaults */
+*{
+    font-family:BalooDa;
+}
+
+i{
+	vertical-align:bottom;
+}
+
+/* Scroll bar */
+::-webkit-scrollbar {
+	height: 7px;
+	width: 7px;
+}
+::-webkit-scrollbar-track {
+	background: #ddd; 
+}
+::-webkit-scrollbar-thumb {
+	background: #bbb; 
+	border-radius: 100px;
+}
+::-webkit-scrollbar-thumb:hover {
+	background: #3BC57A; 
+}
+/* Selection */
+::selection {
+    background-color: #3bc57a;
+	color:#fff;
+}
+.header-dropdown-btn{
+	background-color: #eee;
+}
+.header-dropdown-btn:hover{
+	background-color: #ddd;
+}
+
+.link-list li:hover{
+    background-color: #3bc57a20;
+    color: #3BC57A;
+}
+
+/* Login buttons */
+.login-btn{
+	width: 100%;
+}
+.facebook-login{
+	background-color: #4267B2;
+	color: #fff;
+}
+.facebook-login:hover{
+	background-color: #355fb3;
+	color: #fff;
+}
+.google-login{
+	background-color: #fff;
+	border:1px solid #3BC57A;
+}
+.google-login:hover{
+	background-color: #3bc57a20;
+}
+
+/* Layout */
+.sidenav {
+    height: 100%;
+    width: 210px;
+    overflow-y: auto;
+    padding-bottom: 65px !important;
+}
+.body-area{
+	padding-left:225px;
+	/* background-image: url("../img/background.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed; */
+}
+.grid{
+	display: grid;
+    grid-gap: 20px;
+}
+.template250{
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+.template300{
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+/* Social media icons */
+.smi a{
+	border: 1px solid #3bc57a20;
+    border-radius: 15px;
+    padding: 10px 17px;
+    color: #3bc57a;
+	transition: background-color 0.3s ease;
+}
+.smi a:hover{
+	background-color: #3bc57a20;
+}
+
+/* Goto top button */
+.goto-top{
+    width: 40px;
+    height: 40px;
+    right: 50px;
+    bottom: 50px;
+    border: 2px solid #3bc57a;
+	font-size: 35px;
+    line-height: 33px;
+    transition: 0.3s ease;
+}
+.goto-top:hover{
+	text-decoration: none;
+	bottom: 55px;
+}
+.active-tab{
+	color:#3bc57a;
+	background-color: #3bc57a20;
+	border-left:3px solid #3BC57A !important;
+}
+
+.post-card-cat{
+	top:150px;
+}
+.post-card-views{
+	top:15px;
+	right:15px;
+}
+
+/* Responsive */
+@media (max-width:991px){
+	.body-area{
+		padding-left:calc(var(--bs-gutter-x) * .5);
+	}
+}
