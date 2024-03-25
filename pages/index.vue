@@ -13,7 +13,7 @@
       <button
         class="btn bg-white border-primary rounded-pill fs-7 px-3 btn-outline-primary-light"
       >
-        আরও দেখুন <i class="ri-arrow-down-s-line"></i>
+        See More <i class="ri-arrow-down-s-line"></i>
       </button>
     </div>
   </div>
