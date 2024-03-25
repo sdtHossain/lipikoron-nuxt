@@ -22,30 +22,31 @@
     </div>
     <ul class="link-list pt-2">
       <a href="" class="text-decoration-none text-dark"
-        ><li class="d-inline-block rounded-pill px-3 py-1">আমাদের কথা</li></a
+        ><li class="d-inline-block rounded-pill px-3 py-1">About</li></a
       >
       <a href="" class="text-decoration-none text-dark"
         ><li class="d-inline-block rounded-pill px-3 py-1">
-          প্রাইভেসি পলিসি
+          Privacy Policy
         </li></a
       >
       <a href="" class="text-decoration-none text-dark"
-        ><li class="d-inline-block rounded-pill px-3 py-1">টার্মস অব ইউজ</li></a
+        ><li class="d-inline-block rounded-pill px-3 py-1">Terms of Use</li></a
       >
       <a href="" class="text-decoration-none text-dark"
-        ><li class="d-inline-block rounded-pill px-3 py-1">প্রশ্নোত্তর</li></a
+        ><li class="d-inline-block rounded-pill px-3 py-1">Q/A</li></a
       >
       <a href="" class="text-decoration-none text-dark"
-        ><li class="d-inline-block rounded-pill px-3 py-1">যোগাযোগ</li></a
+        ><li class="d-inline-block rounded-pill px-3 py-1">Contact</li></a
       >
       <a href="" class="text-decoration-none text-dark"
-        ><li class="d-inline-block rounded-pill px-3 py-1">আমাদের টিম</li></a
+        ><li class="d-inline-block rounded-pill px-3 py-1">Our Team</li></a
       >
     </ul>
     <hr />
     <p class="m-0 pb-3">
-      কপিরাইট © ২০২০ - ২০২১,
-      <a href="/" class="text-primary fw-bold">লিপিকরণ</a> | সর্বস্বত্ব সংরক্ষিত
+      copyright © 2020 - 2021,
+      <a href="/" class="text-primary fw-bold">lipikoron</a> | all right
+      reserved
     </p>
   </footer>
 </template>
