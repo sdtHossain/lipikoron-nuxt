@@ -5,8 +5,6 @@
     :categoryID="category.id"
     :category-name="category.title"
   />
-  <!-- <CategoryCard category-name="Recent" />
-  <CategoryCard category-name="Regular" /> -->
   <SeriesItems />
   <BestAuthor />
 </template>

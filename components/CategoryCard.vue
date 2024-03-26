@@ -6,6 +6,7 @@
       <ProductCard
         v-for="(course, index) in coursesByCategory.courses"
         :key="index"
+        :course="course"
       />
     </section>
 
