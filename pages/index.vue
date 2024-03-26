@@ -15,7 +15,7 @@ const appConfig = useAppConfig();
 console.log(appConfig.theme.base_url);
 
 const { data: categories } = await $fetch(
-  `${appConfig.theme.base_url}/categories`
+  `${appConfig.theme.base_url}/categories?is_featured=true`
 );
 console.log(categories);
 </script>
