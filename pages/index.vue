@@ -2,6 +2,7 @@
   <CategoryCard
     v-for="(category, index) in categories.categories"
     :key="index"
+    :categoryID="category.id"
     :category-name="category.title"
   />
   <!-- <CategoryCard category-name="Recent" />

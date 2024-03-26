@@ -1,11 +1,12 @@
 <template>
-  <div>
+  <div v-if="coursesByCategory.courses.length">
     <!-- Recent Items -->
     <h4 class="mt-3"><i class="ri-history-line me-1"></i>{{ categoryName }}</h4>
     <section class="grid template250">
-      <ProductCard />
-
-      <ProductCard />
+      <ProductCard
+        v-for="(course, index) in coursesByCategory.courses"
+        :key="index"
+      />
     </section>
 
     <!-- see more -->
@@ -21,11 +22,19 @@
 
 <script setup lang="ts">
 const props = defineProps({
+  categoryID: {
+    type: Number,
+  },
   categoryName: {
     type: String,
     default: "Recent",
   },
 });
+const appConfig = useAppConfig();
+const { data: coursesByCategory } = await $fetch(
+  `${appConfig.theme.base_url}/course/list?category_id=${props.categoryID}`
+);
+console.log(coursesByCategory);
 </script>
 
 <style scoped></style>
