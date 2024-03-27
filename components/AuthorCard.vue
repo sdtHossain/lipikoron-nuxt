@@ -2,14 +2,14 @@
   <div class="card border-0 shadow-sm">
     <div class="card-body text-center">
       <img
-        src="~/assets/img/Jose_Zuniga.jpg"
+        :src="instructor?.profile_picture"
         class="rounded-circle border border-2 border-primary p-1 cover-fit"
         alt="Profile Picture"
         height="100px"
         width="100px"
       />
       <a href="" class="text-decoration-none text-dark text-hover"
-        ><h1 class="fs-6 fw-bold my-2">Jose Zuniga</h1></a
+        ><h1 class="fs-6 fw-bold my-2">{{ instructor?.name }}</h1></a
       >
       <span class="badge text-dark rounded-pill border border-primary"
         ><i class="ri-quill-pen-line me-1"></i>147</span
@@ -26,6 +26,12 @@
   </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+const props = defineProps({
+  instructor: {
+    type: Object,
+  },
+});
+</script>
 
 <style scoped></style>
