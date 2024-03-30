@@ -17,10 +17,12 @@
         class="rounded-pill text-decoration-none border border-primary bg-white text-dark px-2 position-absolute post-card-views"
         ><i class="ri-eye-line me-1"></i>{{ course?.view_count }}</a
       >
-      <a href="single.html" class="text-decoration-none text-dark text-hover"
+      <router-link
+        :to="`/course/${course?.id}`"
+        class="text-decoration-none text-dark text-hover"
         ><h1 class="fs-6 fw-bold mt-2">
           {{ course?.title }}
-        </h1></a
+        </h1></router-link
       >
       <p class="text-muted mb-1 fs-7">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, sit? Eos,
