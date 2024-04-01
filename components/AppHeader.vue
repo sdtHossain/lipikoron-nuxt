@@ -7,14 +7,18 @@
         <button class="navbar-toggler border-0">
           <i class="ri-menu-2-line"></i>
         </button>
-        <a class="navbar-brand mx-auto mx-md-0 py-0" href="index.html">
+        <router-link
+          to="/"
+          class="navbar-brand mx-auto mx-md-0 py-0"
+          href="index.html"
+        >
           <img
             src="~/assets/img/logo.png"
             alt="Lipikoron"
             width="155"
             height="40"
           />
-        </a>
+        </router-link>
         <button
           class="navbar-toggler border-0"
           data-bs-toggle="modal"
