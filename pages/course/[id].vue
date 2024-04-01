@@ -234,7 +234,7 @@
         <div class="col-lg-4">
           <div class="card course-right-content">
             <img
-              src="~/assets/img/Python_Course.png"
+              :src="courseResp.course.thumbnail"
               class="card-img-top"
               alt="..."
             />
